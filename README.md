@@ -1,5 +1,11 @@
 # React-full
 
+`Episode 1`
+
+```
+   React.createelement ==> Object ==> .render ==> htnml element ==> ReactDOM converts and "replaced the values within the element"
+```
+
 `Episode 2`
 
 ```
@@ -32,3 +38,12 @@ like npm(install a package) - we have npx(executing a package)
 - HMR = Hot Module Replacement (hit save - it automatically renders in the website)
 - file watching algorithm - written in c++ (keeps eye on everything)
 - Caching - Faster Builds
+- Image optimization
+- prod build - minify the files - Bundling
+- compress the file
+- consistent hashing (read about it)
+- code splitting
+- differntial bundling (when app is hosted; app can be in edge, chrome. support older browsers as well)
+- error handling
+- also help to host in https
+- tree shaking (remove unused code for you)
