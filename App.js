@@ -4,7 +4,10 @@
 // const temp = document.getElementById("root");
 // temp.appendChild(heading)
 
-const parent = React.createElement("h1", {}, "Hello from React module");
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const parent = React.createElement("div", { id: "parent" }, [React.createElement("div", { id: "child" }, ""), React.createElement("h1", { id: "child2" }, "Hello from React module")]);
 
 const rootEle = ReactDOM.createRoot(document.getElementById("root"));
 
